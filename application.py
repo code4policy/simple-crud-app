@@ -8,7 +8,7 @@ posts = {
     1: {
         "id": 1,
         "title": "This is a sample post",
-        "content": "<h1>Hello HKS!</h1>"
+        "content": "Hello HKS!"
     }
 }
 
