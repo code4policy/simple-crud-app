@@ -1,6 +1,8 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 
 application = Flask(__name__)
+CORS(application)
 
 posts = {
     1: {
