@@ -2,7 +2,8 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 application = Flask(__name__)
-CORS(application)
+CORS(app)
+application.config['CORS_HEADERS'] = 'Content-Type'
 
 posts = {
     1: {
