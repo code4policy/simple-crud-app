@@ -3,6 +3,7 @@ from flask_cors import CORS
 
 application = Flask(__name__)
 CORS(application)
+application.config['CORS_HEADERS'] = 'Content-Type'
 
 posts = {
     1: {
